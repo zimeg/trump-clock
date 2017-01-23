@@ -9,3 +9,8 @@ body {
     padding-bottom: 30px;
     background-color: #b62026;
 }
+
+a {
+    text-decoration: none;
+    color: #eee;
+}
