@@ -1,5 +1,5 @@
 # trump-clock
-A little website to help us all count down the day until Trump is gone. To see the final product, visit zimboboys.com/trump-clock/
+A little website to help us all count down the day until Trump is gone. To see the final product, visit http://zimboboys.com/trump-clock/
 
 I used HTML, CSS, and JavaScript to make this site.
 
