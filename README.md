@@ -8,7 +8,7 @@ The HTML is just a very basic framework for the actual dates to go into. The <sp
 
 CSS is pretty much as basic as I could go, with just some background colors, font styles, and font colors. This is to give it the "American feel".
 
-JavaScript - the one thing that I know nothing about - is what this project is focused on. Without going into too much detail about what is going on with the <script> stuff, I will try to explain it.
+JavaScript - the one thing that I know nothing about - is what this project is focused on. Without going into too much detail about what is going on with the coding stuff, I will try to explain it.
 
 1. The goal date, 20 January 2021 at 17:00:00 GMT (the same time when the inaguration takes place), was put into epoch time, because this is what computers use to read dates.
 2. The computer's time is also looked at in epoch time, and these times are subtracted to get the remainging milliseconds until the big day happens.
