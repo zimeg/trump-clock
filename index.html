@@ -10,11 +10,10 @@
     
     <body>
         <center>
-            <div style="padding-top: 8%;"></div>
-            
-            <div id="text">
-            <h1>Trump Coundown</h1>
-            <h4>- the coundown until trump is out of office -</h4>
+            <div style="padding-top: 5%;"></div>
+
+            <h1>Trump Countdown</h1>
+            <h4>- time left in Trump's presidency -</h4>
             
             <h2>
                 <span id="year"></span>
@@ -23,9 +22,6 @@
                 <span id="minutes"></span>
                 <span id="seconds"></span>
             </h2>
-            <p>this counts down until our next president is inaugurated<br />
-                not the next election</p>
-            </div>
             
             <h6>- <a href="https://github.com/Zimboboys/trump-clock" target="_blank">source code</a> -</h6>
         </center>
@@ -54,12 +50,16 @@
                 hours-=24;
             }
             
-            while(minutes>59) {
+            while(minutes>60) {
                 minutes-=60;
             }
             
-            while(seconds>59) {
+            while(seconds>60) {
                 seconds-=60;
+            }
+            
+            if(seconds==60) {
+                minutes--;
             }
             
             if(!years==0) {
